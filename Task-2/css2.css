@@ -1,0 +1,232 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 0;
+    transition: opacity 0.3s;
+    z-index: 1000;
+}
+.navbar-logo {
+    font-size: 2.5rem;
+    color:black;
+    text-decoration: none;
+    padding-left: 45px;
+    font-weight:bold;
+}
+
+
+.navbar-items {
+    display: flex;
+    padding-right: 20px;
+}
+
+.navbar-item {
+    color:#f0f0f0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 15px;
+    font-family: cursive;
+}
+
+.navbar-item:hover {
+    color:black;
+}
+.navbar.scrolled:after {
+  opacity: 1;
+}
+
+#home {
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content:start;
+    min-height: calc(100vh - 80px); 
+    background-size: cover;
+    background-position: center top;
+    text-align: right;
+    padding-top: 80px;
+    background-image: url("https://img.freepik.com/free-photo/attractive-young-woman-portrait-indoor_624325-3297.jpg?w=1060&t=st=1694708282~exp=1694708882~hmac=31d7ff5e097e09cd4fec58d52458cce07bcea5361b37119dc27e205445739aaf");
+}
+.home-content {
+    padding: 80px 40px; 
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: white;
+}
+.home-content h3{
+    font-size: 1.3rem;
+    margin-bottom: 7px;
+    color:#f0f0f0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.home-content p{
+    font-size: 1rem;
+    margin-bottom: 7px;
+    color:#f0f0f0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+}
+
+h1{
+    font-size: 2.3rem;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.button-style {
+    font-family:cursive;
+    padding: 15px 30px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin: 0; 
+}
+
+
+.button-style:hover {
+    background-color: #555;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+}
+
+.image img {
+    max-width: 250px;
+    height: auto;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+}
+.content p{
+    color:#555;
+    margin-top: 20px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin:40px;
+    align-items: center;
+    padding: 50px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 0 10px;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color:black;
+}
+
+.card p {
+    font-size: 1rem;
+}
+.card:hover {
+    background-color: lightgrey;
+}
+
+
+#ContactMe{
+    background-color:black;
+    margin:20px;
+}
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 1.8rem;
+    color:#f0f0f0;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, button{
+    color:#f0f0f0;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+} 
+input, textarea{
+    color:black;
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
